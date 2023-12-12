@@ -16,3 +16,9 @@ void imprimirEstudiante(const Estudiante* estudiante) {
     }
 }
 
+int main() {
+    Estudiante estudiante1 = {"Juan", 20, 85.5};
+    imprimirEstudiante(&estudiante1);
+
+    return 0;
+}
